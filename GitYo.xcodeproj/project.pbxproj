@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		849C71271BC872C4006640C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C71261BC872C4006640C4 /* main.m */; };
 		849C712A1BC872C4006640C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C71291BC872C4006640C4 /* AppDelegate.m */; };
-		849C712D1BC872C4006640C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C712C1BC872C4006640C4 /* ViewController.m */; };
+		849C712D1BC872C4006640C4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C712C1BC872C4006640C4 /* RootViewController.m */; };
 		849C71301BC872C4006640C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C712E1BC872C4006640C4 /* Main.storyboard */; };
 		849C71321BC872C4006640C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849C71311BC872C4006640C4 /* Assets.xcassets */; };
 		849C71351BC872C4006640C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C71331BC872C4006640C4 /* LaunchScreen.storyboard */; };
 		849C71401BC872C4006640C4 /* GitYoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C713F1BC872C4006640C4 /* GitYoTests.m */; };
 		849C714B1BC872C5006640C4 /* GitYoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C714A1BC872C5006640C4 /* GitYoUITests.m */; };
+		849C715A1BC87386006640C4 /* Spaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C71591BC87386006640C4 /* Spaceship.m */; settings = {ASSET_TAGS = (); }; };
+		849C715D1BC8746A006640C4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C715C1BC8746A006640C4 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,8 @@
 		849C71261BC872C4006640C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		849C71281BC872C4006640C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		849C71291BC872C4006640C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		849C712B1BC872C4006640C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		849C712C1BC872C4006640C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849C712B1BC872C4006640C4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		849C712C1BC872C4006640C4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		849C712F1BC872C4006640C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849C71311BC872C4006640C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849C71341BC872C4006640C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		849C71461BC872C5006640C4 /* GitYoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitYoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849C714A1BC872C5006640C4 /* GitYoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitYoUITests.m; sourceTree = "<group>"; };
 		849C714C1BC872C5006640C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849C71581BC87386006640C4 /* Spaceship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spaceship.h; sourceTree = "<group>"; };
+		849C71591BC87386006640C4 /* Spaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spaceship.m; sourceTree = "<group>"; };
+		849C715B1BC8746A006640C4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		849C715C1BC8746A006640C4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +109,13 @@
 			children = (
 				849C71281BC872C4006640C4 /* AppDelegate.h */,
 				849C71291BC872C4006640C4 /* AppDelegate.m */,
-				849C712B1BC872C4006640C4 /* ViewController.h */,
-				849C712C1BC872C4006640C4 /* ViewController.m */,
+				849C712B1BC872C4006640C4 /* RootViewController.h */,
+				849C712C1BC872C4006640C4 /* RootViewController.m */,
+				849C71581BC87386006640C4 /* Spaceship.h */,
+				849C71591BC87386006640C4 /* Spaceship.m */,
 				849C712E1BC872C4006640C4 /* Main.storyboard */,
+				849C715B1BC8746A006640C4 /* DetailViewController.h */,
+				849C715C1BC8746A006640C4 /* DetailViewController.m */,
 				849C71311BC872C4006640C4 /* Assets.xcassets */,
 				849C71331BC872C4006640C4 /* LaunchScreen.storyboard */,
 				849C71361BC872C4006640C4 /* Info.plist */,
@@ -270,8 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849C712D1BC872C4006640C4 /* ViewController.m in Sources */,
+				849C715D1BC8746A006640C4 /* DetailViewController.m in Sources */,
+				849C712D1BC872C4006640C4 /* RootViewController.m in Sources */,
 				849C712A1BC872C4006640C4 /* AppDelegate.m in Sources */,
+				849C715A1BC87386006640C4 /* Spaceship.m in Sources */,
 				849C71271BC872C4006640C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
