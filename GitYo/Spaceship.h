@@ -13,6 +13,7 @@
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *captain;
 @property (strong, nonatomic) NSString *copilot;
+@property (strong, nonatomic) NSString *hahahahaha;
 
 
 @end
