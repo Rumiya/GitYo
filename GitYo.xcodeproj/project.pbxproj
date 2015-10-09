@@ -17,6 +17,7 @@
 		849C714B1BC872C5006640C4 /* GitYoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C714A1BC872C5006640C4 /* GitYoUITests.m */; };
 		849C715A1BC87386006640C4 /* Spaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C71591BC87386006640C4 /* Spaceship.m */; settings = {ASSET_TAGS = (); }; };
 		849C715D1BC8746A006640C4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C715C1BC8746A006640C4 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		849C71601BC8865E006640C4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849C715F1BC8865E006640C4 /* ProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		849C71591BC87386006640C4 /* Spaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spaceship.m; sourceTree = "<group>"; };
 		849C715B1BC8746A006640C4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		849C715C1BC8746A006640C4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		849C715E1BC8865E006640C4 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		849C715F1BC8865E006640C4 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				849C71591BC87386006640C4 /* Spaceship.m */,
 				849C712E1BC872C4006640C4 /* Main.storyboard */,
 				849C715B1BC8746A006640C4 /* DetailViewController.h */,
+				849C715E1BC8865E006640C4 /* ProfileViewController.h */,
+				849C715F1BC8865E006640C4 /* ProfileViewController.m */,
 				849C715C1BC8746A006640C4 /* DetailViewController.m */,
 				849C71311BC872C4006640C4 /* Assets.xcassets */,
 				849C71331BC872C4006640C4 /* LaunchScreen.storyboard */,
@@ -284,6 +289,7 @@
 				849C712D1BC872C4006640C4 /* RootViewController.m in Sources */,
 				849C712A1BC872C4006640C4 /* AppDelegate.m in Sources */,
 				849C715A1BC87386006640C4 /* Spaceship.m in Sources */,
+				849C71601BC8865E006640C4 /* ProfileViewController.m in Sources */,
 				849C71271BC872C4006640C4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
